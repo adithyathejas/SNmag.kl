@@ -44,6 +44,14 @@
   background-position: left center, right center;
   animation: eyes 5000ms infinite;
 }
+      .watermark {
+        position: absolute;
+        bottom: 10px; /* Adjust as needed */
+        right: 10px; /* Adjust as needed */
+        color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity as needed */
+        font-size: 16px;
+      }
+      
 @-moz-keyframes flashlight {
   0%, 9% {
     opacity: 0;
@@ -234,6 +242,10 @@
           allowfullscreen="true"
         ></iframe>
       </div>
+    </div>
+     </div>
+      <!-- Watermark -->
+      <div class="watermark">Developed by Adithya Thejas</div>
     </div>
   </body>
 </html>
